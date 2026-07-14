@@ -10,8 +10,9 @@
     <div id="calculator">
        <input id="display" readonly>
        <div id="keys">
-           <button onclick="clear('C')" class="clear-btn">C</button>
-           <button onclick="para('()')">()</button>
+           <button onclick="clearDisplay()" class="clear-btn">C</button>
+           <button onclick="appendToDisplay('(')">(</button>
+           <button onclick="appendToDisplay(')')">)</button>
            <button onclick="appendToDisplay('%')" class="operator-btn">%</button>
            <button onclick="appendToDisplay('/')"class="operator-btn">/</button>
            <button onclick="appendToDisplay('7')">7</button>
