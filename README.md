@@ -7,6 +7,7 @@ A simple calculator built using **HTML**, **CSS**, and **JavaScript**. It perfor
 - Basic arithmetic operations (+, −, ×, ÷)
 - Percentage and decimal calculations
 - Parentheses support
+- Fully responsive layout that adapts smoothly to **mobile, tablet, and desktop** screens.
 - Keyboard support
   - Numbers and operators
   - Enter (=)
