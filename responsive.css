@@ -39,78 +39,77 @@ button {
   border-radius: 8px;
 }
 
-/* Mobile: occupy full viewport like a native calculator app */
+/* Mobile: compact, centered card for neat appearance */
 @media (max-width: 420px) {
   body {
-    align-items: stretch !important;
-    justify-content: flex-start !important;
-    padding: 0;
-  }
-  #calculator {
-    width: 100vw;
-    height: 100vh;
-    max-width: none;
-    margin: 0;
-    border-radius: 0;
-    display: flex;
-    flex-direction: column;
-    background-clip: padding-box;
-  }
-  #display {
-    font-size: 2.6rem;
+    align-items: center;
+    justify-content: center;
     padding: 18px;
   }
+  #calculator {
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+    border-radius: 12px;
+    display: block;
+  }
+  #display {
+    font-size: 2.2rem;
+    padding: 14px;
+  }
   #keys {
-    padding: 10px;
-    gap: 8px;
-    grid-auto-rows: minmax(56px, 1fr);
-    flex: 1 1 auto;
+    padding: 14px;
+    gap: 10px;
+    grid-auto-rows: 56px;
   }
   button {
-    height: 100%;
-    font-size: 1.5rem;
-    border-radius: 6px;
+    height: 56px;
+    font-size: 1.2rem;
+    border-radius: 8px;
   }
 }
 
 /* Tablet: slightly larger buttons, centered card */
 @media (min-width: 421px) and (max-width: 1024px) {
   #calculator {
-    max-width: 480px;
-    margin: 20px auto;
+    max-width: 420px;
+    margin: 28px auto;
   }
   #display {
-    font-size: 2.2rem;
+    font-size: 2.4rem;
     padding: 16px;
   }
   #keys {
-    gap: 10px;
-    padding: 16px;
-    grid-auto-rows: minmax(64px, 1fr);
+    gap: 12px;
+    padding: 18px;
+    grid-auto-rows: 64px;
   }
   button {
     height: 64px;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
   }
 }
 
 /* Laptop / Desktop: make the calculator larger */
 @media (min-width: 1025px) {
+  /* Laptop/desktop: match first screenshot sizing */
   #calculator {
-    max-width: 540px;
+    max-width: 360px;
+    margin: 40px auto;
   }
   #display {
-    font-size: 2.8rem;
-    padding: 20px;
+    font-size: 3rem;
+    padding: 22px 20px;
   }
   #keys {
     gap: 14px;
-    padding: 24px;
+    padding: 22px;
     grid-auto-rows: 72px;
   }
   button {
     height: 72px;
     font-size: 1.6rem;
     border-radius: 10px;
+    width: 72px;
   }
 }
