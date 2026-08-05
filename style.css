@@ -29,7 +29,7 @@ body {
   padding: 30px;
 }
 button {
-  width: 60px;
+  width: 100%;
   height: 60px;
   background-color: rgba(0, 0, 0, 0.463);
   font-size: 25px;
@@ -71,4 +71,16 @@ button:active {
 }
 .clear-btn:active {
   background-color: rgba(255, 0, 0, 0.324);
+}
+.backspace-btn {
+  background-color: #ff8c00;
+}
+.backspace-btn:hover {
+  background-color: rgba(255, 140, 0, 0.424);
+}
+.backspace-btn:active {
+  background-color: rgba(255, 140, 0, 0.324);
+}
+.equals-btn {
+  grid-column: 1 / -1;
 }
