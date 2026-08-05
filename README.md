@@ -19,13 +19,19 @@ A simple calculator built using **HTML**, **CSS**, and **JavaScript**. It perfor
 - CSS3
 - JavaScript
 
-## 🚀 How to Run
+## ⚡ Live Demo
+
+Launch NovaCalc:
+
+🔗 [NovaCalc – Live Demo](calculator-inky-mu-37.vercel.app)
+
+## 🚀 How to Run Locally
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/8anissibrenda-stack/Calculator.git
-   ```
-2. Open `index.html` in your browser.
+
+2. Open index.html in your browser.
 
 ## 📸 Preview
 
