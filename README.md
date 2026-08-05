@@ -39,7 +39,7 @@ Launch NovaCalc:
 
 ## 📸 Preview
 
-<img width="1920" height="976" alt="Screenshot 2026-08-06 020751" src="https://github.com/user-attachments/assets/cff64b9c-1cb7-4628-aa47-3592050824bd" />
+<img width="1917" height="1022" alt="Screenshot 2026-08-06 020751" src="https://github.com/user-attachments/assets/539a0324-a373-4a1d-9798-084491bd837f" />
 
 ## 👩‍💻 Developed by
 
