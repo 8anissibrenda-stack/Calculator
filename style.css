@@ -34,12 +34,20 @@ body {
   transform: translateY(-50%);
   width: 52px;
   height: 52px;
-  background-color: #ff8c00;
+  background-color: rgba(0, 0, 0, 0.15);
   color: white;
   font-size: 1.2rem;
   border: none;
-  border-radius: 50%;
+  border-radius: 10px;
   cursor: pointer;
+}
+.backspace-btn:hover {
+  background-color: #ff3b30;
+  box-shadow: 0 0 12px rgba(255, 59, 48, 0.45);
+}
+.backspace-btn:active {
+  background-color: #8a8a8a;
+  box-shadow: none;
 }
 
 #keys {
