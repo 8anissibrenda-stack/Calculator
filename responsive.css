@@ -90,25 +90,24 @@ button {
   }
 }
 
-/* Laptop / Desktop: make the calculator larger */
+/* Laptop / Dessktop: */
 @media (min-width: 1025px) {
-  /* Laptop/desktop: match first screenshot sizing */
   #calculator {
-    max-width: 360px;
-    margin: 40px auto;
+    max-width: 320px;
+    margin: 36px auto;
   }
   #display {
-    font-size: 3rem;
-    padding: 22px 20px;
+    font-size: 2.4rem;
+    padding: 18px 16px;
   }
   #keys {
-    gap: 14px;
-    padding: 22px;
-    grid-auto-rows: 72px;
+    gap: 12px;
+    padding: 18px;
+    grid-auto-rows: 60px;
   }
   button {
-    height: 72px;
-    font-size: 1.6rem;
-    border-radius: 10px;
+    height: 60px;
+    font-size: 1.25rem;
+    border-radius: 8px;
   }
 }
